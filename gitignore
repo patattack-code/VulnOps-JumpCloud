@@ -1,0 +1,11 @@
+# Secrets (should never exist here, but just in case)
+.env
+*.key
+
+# Runtime output — lists hostnames and unpatched CVEs
+vuln-ledger.json
+vuln-report-*.md
+vulnops.log
+
+# Active config copy (choose mcp.json or mcp.headless.json)
+.mcp.json
